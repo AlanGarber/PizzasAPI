@@ -14,30 +14,36 @@ namespace Pizzas.API.Controllers
     [Route("api/[controller]")]
     public class PizzaController : ControllerBase
     {
+
         [HttpGet]
-        public IEnumerable<Pizza> GetAll()
-        {
-            var rng = new Random();
-            return Enumerable.Range(0,1).Select(index => new Pizza
-            {
-                Descripcion = "Con salsa de tomate y queso",
-                Id = 1,
-                Importe = 300,
-                LibreGluten = false,
-                Nombre = "Muzza Individual"
-            })
-            .ToArray();
+        public IActionResult GetAll(){
+            List<Pizza> ListaPizza;
+            ListaPizza=BD.GetAll();
+            return Ok(ListaPizza);
         }
     
         [HttpGet("{Id}")]
-        public Pizza GetById(int id){
+        public IActionResult GetById(int id){
             Pizza MiPizza=BD.GetById(id);
-            return MiPizza;
+            return Ok();
         }
 
         [HttpPost]
-        public IActionResult Create(Pizza pizza){
+        public IActionResult Create(Pizza Pizza){
+            BD.Create(Pizza);
+            return Ok();
+        }
 
+        [HttpPut ("{id}")]
+        public IActionResult Update(int Id,Pizza Pizza){
+            BD.Update(Id, Pizza);
+            return Ok();
+        }
+
+        [HttpDelete ("{id}")]
+        public IActionResult DeleteById(int Id){
+            BD.DeleteById(Id);
+            return Ok();
         }
     }
 }
