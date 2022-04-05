@@ -8,8 +8,6 @@ using Pizzas.API.Models;
 using System.Data.SqlClient;
 using Dapper;
 
-using Pizzas.API.Services.ConfigurationHelper;
-
 namespace Pizzas.API.Utils
 {
     public static class BD

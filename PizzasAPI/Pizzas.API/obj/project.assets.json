@@ -81,6 +81,18 @@
           }
         }
       },
+      "SqlConnection/1.0.4": {
+        "type": "package",
+        "dependencies": {
+          "System.Data.SqlClient": "4.8.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/SQLConnection.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/SQLConnection.dll": {}
+        }
+      },
       "System.Data.SqlClient/4.8.3": {
         "type": "package",
         "dependencies": {
@@ -298,6 +310,20 @@
         "runtimes/win-x86/native/sni.dll",
         "useSharedDesignerContext.txt",
         "version.txt"
+      ]
+    },
+    "SqlConnection/1.0.4": {
+      "sha512": "JDjswSKyrDs/A32Wq1Dsu/5VDQNLPWuVsCJzFilTKFMzTW2kLxroRtHNtEvZ1ZyYhomp1EGAqgJRIM9NI7c0Vw==",
+      "type": "package",
+      "path": "sqlconnection/1.0.4",
+      "files": [
+        ".NET.png",
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LicenseInfo.txt",
+        "lib/netstandard2.0/SQLConnection.dll",
+        "sqlconnection.1.0.4.nupkg.sha512",
+        "sqlconnection.nuspec"
       ]
     },
     "System.Data.SqlClient/4.8.3": {
@@ -548,6 +574,7 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "Dapper >= 2.0.123",
+      "SqlConnection >= 1.0.4",
       "System.Data.SqlClient >= 4.8.3"
     ]
   },
@@ -593,6 +620,10 @@
           "Dapper": {
             "target": "Package",
             "version": "[2.0.123, )"
+          },
+          "SqlConnection": {
+            "target": "Package",
+            "version": "[1.0.4, )"
           },
           "System.Data.SqlClient": {
             "target": "Package",

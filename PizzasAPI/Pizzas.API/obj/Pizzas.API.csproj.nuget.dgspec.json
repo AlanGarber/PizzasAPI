@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\46442525\\Desktop\\PizzasAPI\\PizzasAPI\\PiZzas.APi\\Pizzas.API.csproj": {}
+    "C:\\Users\\46442525\\Desktop\\PizzasAPI\\PizzasAPI\\Pizzas.API\\Pizzas.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\46442525\\Desktop\\PizzasAPI\\PizzasAPI\\PiZzas.APi\\Pizzas.API.csproj": {
+    "C:\\Users\\46442525\\Desktop\\PizzasAPI\\PizzasAPI\\Pizzas.API\\Pizzas.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\46442525\\Desktop\\PizzasAPI\\PizzasAPI\\PiZzas.APi\\Pizzas.API.csproj",
+        "projectUniqueName": "C:\\Users\\46442525\\Desktop\\PizzasAPI\\PizzasAPI\\Pizzas.API\\Pizzas.API.csproj",
         "projectName": "Pizzas.API",
-        "projectPath": "C:\\Users\\46442525\\Desktop\\PizzasAPI\\PizzasAPI\\PiZzas.APi\\Pizzas.API.csproj",
+        "projectPath": "C:\\Users\\46442525\\Desktop\\PizzasAPI\\PizzasAPI\\Pizzas.API\\Pizzas.API.csproj",
         "packagesPath": "C:\\Users\\46442525\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\46442525\\Desktop\\PizzasAPI\\PizzasAPI\\PiZzas.APi\\obj\\",
+        "outputPath": "C:\\Users\\46442525\\Desktop\\PizzasAPI\\PizzasAPI\\Pizzas.API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\46442525\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -43,6 +43,10 @@
             "Dapper": {
               "target": "Package",
               "version": "[2.0.123, )"
+            },
+            "SqlConnection": {
+              "target": "Package",
+              "version": "[1.0.4, )"
             },
             "System.Data.SqlClient": {
               "target": "Package",
