@@ -18,31 +18,31 @@ namespace Pizzas.API.Controllers
         [HttpGet]
         public IActionResult GetAll(){
             List<Pizza> ListaPizza;
-            ListaPizza=BD.GetAll();
+            ListaPizza=PizzaServices.GetAll();
             return Ok(ListaPizza);
         }
     
         [HttpGet("{Id}")]
         public IActionResult GetById(int id){
-            Pizza MiPizza=BD.GetById(id);
+            Pizza MiPizza=PizzaServices.GetById(id);
             return Ok();
         }
 
         [HttpPost]
         public IActionResult Create(Pizza Pizza){
-            BD.Create(Pizza);
+            PizzaServices.Create(Pizza);
             return Ok();
         }
 
         [HttpPut ("{id}")]
         public IActionResult Update(int Id,Pizza Pizza){
-            BD.Update(Id, Pizza);
+            PizzaServices.Update(Id, Pizza);
             return Ok();
         }
 
         [HttpDelete ("{id}")]
         public IActionResult DeleteById(int Id){
-            BD.DeleteById(Id);
+            PizzaServices.DeleteById(Id);
             return Ok();
         }
     }
