@@ -9,12 +9,9 @@ namespace Pizzas.API.Helpers{
             IConfiguration config;
             var builder = new ConfigurationBuilder()
                 .SetBasePath(Directory.GetCurrentDirectory())
-                .AddJsonFile("appsettings.json",optional : true , reloadOnCharge:true);
+                .AddJsonFile("appsettings.json",optional : true);
                 config=builder.Build();
                 return config;
-           
             } 
-
         }
-
     }

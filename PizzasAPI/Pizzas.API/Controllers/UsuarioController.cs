@@ -12,10 +12,6 @@ namespace Pizzas.API.Controllers
 {
     public class UsuarioController : ControllerBase
     {
-        [HttpPost]
-        [Route("login")]
-        public IActionResult Login(UsuarioController usuario){
-            
-        }
+    
     }
 }

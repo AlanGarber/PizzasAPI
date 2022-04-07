@@ -26,3 +26,11 @@ C:\Users\46442525\Desktop\PizzasAPI\PizzasAPI\PiZzas.APi\obj\Debug\netcoreapp3.1
 C:\Users\46442525\Desktop\PizzasAPI\PizzasAPI\PiZzas.APi\obj\Debug\netcoreapp3.1\Pizzas.API.dll
 C:\Users\46442525\Desktop\PizzasAPI\PizzasAPI\PiZzas.APi\obj\Debug\netcoreapp3.1\Pizzas.API.pdb
 C:\Users\46442525\Desktop\PizzasAPI\PizzasAPI\PiZzas.APi\obj\Debug\netcoreapp3.1\Pizzas.API.genruntimeconfig.cache
+C:\Users\user\Desktop\PizzasAPI\PizzasAPI\Pizzas.API\obj\Debug\netcoreapp3.1\Pizzas.API.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\PizzasAPI\PizzasAPI\Pizzas.API\obj\Debug\netcoreapp3.1\Pizzas.API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\PizzasAPI\PizzasAPI\Pizzas.API\obj\Debug\netcoreapp3.1\Pizzas.API.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\PizzasAPI\PizzasAPI\Pizzas.API\obj\Debug\netcoreapp3.1\Pizzas.API.AssemblyInfo.cs
+C:\Users\user\Desktop\PizzasAPI\PizzasAPI\Pizzas.API\obj\Debug\netcoreapp3.1\Pizzas.API.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\PizzasAPI\PizzasAPI\Pizzas.API\obj\Debug\netcoreapp3.1\Pizzas.API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\user\Desktop\PizzasAPI\PizzasAPI\Pizzas.API\obj\Debug\netcoreapp3.1\Pizzas.API.dll
+C:\Users\user\Desktop\PizzasAPI\PizzasAPI\Pizzas.API\obj\Debug\netcoreapp3.1\Pizzas.API.pdb

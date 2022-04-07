@@ -10,13 +10,12 @@ using Dapper;
 
 namespace Pizzas.API.Utils
 {
-    public static class BD
+    public class dataBase
     {
         public static SqlConnection GetConnection(){
             SqlConnection db;
             string connectionString;
-
-            connectionString=ConfigurationHelper.GetConfiguration().GetValue<string>("DatabaseSettings:ConnectionString");
+            connectionString=@"Server=A-CEO-15;DataBase:DAI-Pizzas;Trusted_Connection=True";
             db= new SqlConnection(connectionString);
             return db;
         }
